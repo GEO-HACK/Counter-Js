@@ -1,8 +1,4 @@
-// document.getElementById("count-el").innerText = 5;
-//initialize the count as 0
-//listen for the click event on the button
-//increment the count variable when the button is clicked
-//change the count-el in the HTML to reflect the new count
+
 let count = 0;
 let CountEl = document.getElementById("count-el");
 function increment(){
@@ -35,13 +31,3 @@ let messageToUser = message + " " +username ;
 console.log(messageToUser);
 
 
-
-// let lapsCompleted = 0;
-
-// function incrementLaps(){
-//     lapsCompleted += 1;
-//     console.log(lapsCompleted)
-// }
-
-
-// console.log(lapsCompleted);
